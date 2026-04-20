@@ -1,0 +1,5 @@
+{
+  "searchedCities": ["New York", "Japan"],
+  "dateFormat": "EEEE, MMMM d, yyyy",
+  "timeFormat": "HH:mm:ss"
+}
