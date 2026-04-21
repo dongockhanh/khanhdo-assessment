@@ -41,6 +41,7 @@ npm run test
 
     - Update expected values in test-data/ as needed.
     - Uncomment lines 20, 29, 37, 38 in the test file to enable strict validation.
+    - Test results are logged to the console, allowing expected values to be reviewed and updated accordingly.
 
 * Since expected data changes over time, these assertions are commented out by default to avoid flaky tests. By default, tests only verify that data is valid.
 
@@ -53,4 +54,11 @@ npm run test
     - github-data.json/: Contains expected data for GitHub API testing
 * tests/: Contains all automation test scenarios
 * playwright.config.ts: Global configuration for Playwright
-    - github-data.json/: Contains expected data for GitHub API testing
+
+## Error Note
+
+If you see errors like bash, sed, or uname not found on Windows, it’s usually due to due to differences between Unix and Windows environments
+
+Fix:
+- Use Git Bash
+- And ensure the correct version of Node.js is installed (v22.21.1)
