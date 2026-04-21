@@ -50,9 +50,9 @@ npm run test
 
 * playwright-report/: Report after execution
 * pages/: Each page is represented by a single class that encapsulates both selectors and user actions, following the Page Object Model (POM) design pattern to improve maintainability and reusability.
-    - timePage.ts/: handles time page
+    - timePage.ts: handles time page
 * test-data/: Stores external test data
-    - time.json/: Contains searching data and date time format for verification for time.is testing
+    - time.json: Contains searching data and date time format for verification for time.is testing
 * tests/: Contains all automation test scenarios
 * utils/: Shared utility functions
     - dateTimeUtils.ts: Contains reusable helpers for formatting and handling date/time operations

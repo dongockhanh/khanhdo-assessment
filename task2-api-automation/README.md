@@ -49,9 +49,9 @@ npm run test
 
 * playwright-report/: Report after execution
 * services/: contains logic for interacting with external APIs and processing data
-    - github.service.ts/: This service is responsible for handling all interactions with the GitHub REST API
+    - github.service.ts: This service is responsible for handling all interactions with the GitHub REST API
 * test-data/: Stores external test data
-    - github-data.json/: Contains expected data for GitHub API testing
+    - github-data.json: Contains expected data for GitHub API testing
 * tests/: Contains all automation test scenarios
 * playwright.config.ts: Global configuration for Playwright
 
