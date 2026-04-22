@@ -19,4 +19,9 @@ cd task1-web-automation
 cd task2-api-automation
 ```
 
+* Run API Automation task3-mobile-automation and follow README of this taslk
+```
+cd task3-mobile-automation
+```
+
 * Each project is self-contained. Please refer to the respective README files for detailed setup and execution steps.

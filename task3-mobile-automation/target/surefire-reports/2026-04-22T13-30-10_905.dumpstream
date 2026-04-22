@@ -1,0 +1,5 @@
+# Created at 2026-04-22T13:30:11.049
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Work\jitsu\khanhdo-assessment\task3-mobile-automation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
